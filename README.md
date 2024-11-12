@@ -1,4 +1,4 @@
-# Mask R-CNN for object detection and instance segmentation using Keras==2.7.0 and TensorFlow==2.7.0
+# Mask R-CNN for object detection and instance segmentation using Keras==2.7.0 and TensorFlow==2.8.0
 
 The [Mask-RCNN-TF2.7.0-keras2.7.0](https://github.com/kamlesh364/Mask-RCNN-TF2.7.0-keras2.7.0) project edits the original [Mask_RCNN](https://github.com/matterport/Mask_RCNN) project, which only supports TensorFlow 1.0, so that it works on TensorFlow 2.7.0. Based on this new project, the [Mask R-CNN](https://arxiv.org/abs/1703.06870) can be trained and tested (i.e make predictions) in TensorFlow 2.7.0. The Mask R-CNN model generates bounding boxes and segmentation masks for each instance of an object in the image. It's based on Feature Pyramid Network (FPN) and a ResNet101 backbone.
 
